@@ -6,7 +6,7 @@
 
 ---
 
-## 亮点（体现技术能力）
+## 亮点
 
 - **清晰分层**：`routers`（HTTP 层） / `services`（业务） / `models&schemas`（数据） / `deps`（依赖&安全）
 - **安全认证**：OAuth2 + JWT，密码哈希（bcrypt），最小权限（演示 `is_admin`）
@@ -117,7 +117,7 @@ pytest -q
 
 ---
 
-## 可能的扩展方向
+## 可扩展方向
 
 - 接入 **Redis** 做购物车缓存与库存秒杀扣减
 - 引入 **Alembic** 进行在线 Schema 迁移
